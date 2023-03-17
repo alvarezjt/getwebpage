@@ -1,5 +1,9 @@
-from selenium import webdriver
+from flask import Flask
 
-browser = webdriver.Firefox()
-browser.get('http://selenium.dev/')
+app = Flask(__name__)
 
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
+app.run()
