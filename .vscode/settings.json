@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f24f8385-df63-455b-b6ce-5ce44dd106b6/resourceGroups/infonow_group/providers/Microsoft.Web/sites/infonow",
+    "appService.deploySubpath": "."
+}
